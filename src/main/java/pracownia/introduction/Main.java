@@ -1,8 +1,16 @@
 package pracownia.introduction;
+import java.util.logging.Logger;
+
+
+
 
 public class Main {
 
-    public static void main(String [ ] args) {
+    static Logger log = Logger.getLogger("name");
+
+    public static void main(String [ ] args)
+    {
+        log.info("message");
         System.out.println("Hello World");
     }
 }
